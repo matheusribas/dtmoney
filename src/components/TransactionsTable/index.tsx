@@ -23,8 +23,8 @@ export function TransactionsTable() {
         <tbody>
           <tr>
             <td>Salário</td>
-            <td className='deposit'>R$2.000,00</td>
-            <td>Desenvolvimento</td>
+            <td className='deposit'>R$2.500,00</td>
+            <td>Trabalho</td>
             <td>20/09/2021</td>
           </tr>
           <tr>
@@ -34,8 +34,8 @@ export function TransactionsTable() {
             <td>17/09/2021</td>
           </tr>
           <tr>
-            <td>Matriz</td>
-            <td className='withdraw'>- R$60,00</td>
+            <td>Burguer</td>
+            <td className='withdraw'>- R$40,00</td>
             <td>Alimentação</td>
             <td>16/09/2021</td>
           </tr>
