@@ -40,6 +40,7 @@ createServer({
 
     this.post('/transactions', (schem, request) => {
       const data = JSON.parse(request.requestBody)
+      data.createdAt = new Date()
       return schem.create('transaction', data)
     })
   }
